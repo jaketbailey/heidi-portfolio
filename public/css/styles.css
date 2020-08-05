@@ -1,5 +1,29 @@
 
+/* Header, content and footer formatting */
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(174,233,215);
+    color:  white;
+}
+
+.content {
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(174,233,215);
+    color: white;
+}
 
 h1.header {
     font-family: 'Laila', serif;
 }
+
