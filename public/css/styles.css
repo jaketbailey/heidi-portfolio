@@ -12,14 +12,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgb(255,255,255)
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.623),
+        rgba(0, 0, 0, 0.623)
+    ),
+    url("/public/images/bg.png");
 }
 
 .footer {
     padding: 10px;
     text-align: center;
     background-color: rgb(174,233,215);
-    background-image: '/public/images/bg.png';
     background-repeat: repeat;
 }
 
