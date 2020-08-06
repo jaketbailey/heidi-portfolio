@@ -12,16 +12,21 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    background-color: rgb(255,255,255)
 }
 
 .footer {
     padding: 10px;
     text-align: center;
     background-color: rgb(174,233,215);
+    background-image: '/public/images/bg.png';
+    background-repeat: repeat;
 }
 
 h1.header {
     font-family: 'Laila', serif;
 }
 
+body {
+    background-color: rgb(255, 255, 255);
+}
