@@ -2,7 +2,6 @@
 /* Header, content and footer formatting */
 .header {
     padding: 10px;
-    text-align: center;
     background-color: rgb(174,233,215);
 }
 
@@ -25,8 +24,28 @@
 
 h1.header {
     font-family: 'Laila', serif;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+    margin: 0px;
+}
+
+p.menu {
+    font-family: 'Laila', serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: black;
+    text-align: right;
+    margin: 0px;
+    padding-top: 15px;
 }
 
 body {
     background-color: rgb(255, 255, 255);
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
 }
