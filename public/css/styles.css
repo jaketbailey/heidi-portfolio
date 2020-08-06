@@ -40,6 +40,13 @@ p.menu {
     padding-top: 15px;
 }
 
+a.menu {
+    font-family: 'Laila', serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: black;
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }
