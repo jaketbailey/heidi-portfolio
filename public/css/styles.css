@@ -35,7 +35,8 @@ h1.head {
     text-align: left;
     margin: 0px;
     background: transparent;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 h2.head {
@@ -46,6 +47,7 @@ h2.head {
     color: black;
     background: transparent;
     margin-top: 0px;
+    margin-left: inherit;
 }
 
 p.menu {
@@ -59,18 +61,35 @@ p.menu {
     
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    align-content: center;
+}
+
 a.menu {
     font-family: 'Laila', serif;
     font-weight: 400;
     font-size: 17px;
     text-decoration: none;
     color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
 }
 
 body {
     background: 
-    url("/public/images/bg1.jpg");
+    url("/public/images/bg.svg");
     margin: 0px;
+    background-size: 5%;
 }
 
 table.center {
