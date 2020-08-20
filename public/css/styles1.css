@@ -1,8 +1,69 @@
+/* Adjusts page to fit screensize */
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
+@media screen and (min-width: 1101px) {
+    /* CSS for screens that are 1001 pixels or more will be put in this section */
+
+    .parent {
+        display: flex;
+        background-color: transparent;
+        flex-flow: row wrap;
+        flex-wrap: wrap;
+        width: 100%;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: center;
+        justify-items: center;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    
+    .parent > div {
+      background-color: transparent;
+      /* margin: 10px; */
+      padding: 10px;
+      font-size: 30px;
+      width: 40%;
+      text-align: center;
+    
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    /* CSS for screens that are 1000 pixels or less will be put in this section */
+
+    .parent {
+        display: flex;
+        background-color: transparent;
+        flex-flow: row wrap;
+        flex-wrap: wrap;
+        width: 100%;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: center;
+        justify-items: center;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    
+    .parent > div {
+      background-color: transparent;
+      /* margin: 10px; */
+      padding: 10px;
+      font-size: 30px;
+      width: 75%;
+      text-align: center;
+    
+    }
+}
 
 /* Header, content and footer formatting */
 .header {
     background-color: #ccf3fd;
-    
 }
 
 .content {
@@ -54,6 +115,18 @@ h1.content {
     text-align: center;
 }
 
+h2.content {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: naone;
+    color: black;
+    background: transparent;
+    margin: 0px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
 .portrait {
     padding: 0px;
     border-radius: 100%;
@@ -66,27 +139,6 @@ body {
     background-color: #ccf3fd;
     margin: 0px
 }
-.parent {
-    display: flex;
-    background-color: transparent;
-    flex-flow: row wrap;
-    width: 100%;
-    align-content: center;
-    align-items: flex-start;
-    justify-content: center;
-    justify-items: center;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-.parent > div {
-  background-color: transparent;
-  /* margin: 10px; */
-  padding: 10px;
-  font-size: 30px;
-  width: 40%;
-  text-align: center;
-}
 
 .menu {
     font-family: 'Josefin Slab', serif;
@@ -94,8 +146,26 @@ body {
     font-size: 17px;
     color: black;
     margin: 0px;
+    margin-left: 10px;
     /* padding-top: 15px; */
     text-decoration: none;
+}
+
+.menu_2 {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: darkslategray;
+    margin: 0px;
+    margin-left: 10px;
+    /* padding-top: 15px; */
+    text-decoration: underline;
+}
+
+.menu:hover{
+    font-weight: 400;
+    color: darkslategray;
+    text-decoration: underline;
 }
 
 p.content {
