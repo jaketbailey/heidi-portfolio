@@ -127,6 +127,26 @@ h2.content {
     text-align: left;
 }
 
+h3.content {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+    text-decoration: none;
+    text-align: left;
+}
+
+p.content, ul.content {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: black;
+    margin: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+
 .portrait {
     padding: 0px;
     border-radius: 100%;
@@ -168,18 +188,25 @@ body {
     text-decoration: underline;
 }
 
-p.content {
-    font-family: 'Josefin Slab', serif;
-    font-weight: 400;
-    font-size: 17px;
-    color: black;
-    margin: 0px;
-    text-decoration: none;
-    text-align: center;
-}
+
 p.footer{
     text-align: center;
     font-family: 'Josefin Slab',serif;
     font-weight: 200;
     font-size: 12px;
+}
+
+a.mainButton {
+    background-color: #ccf3fd; 
+    font-weight: 400;
+    border-radius: 5px; 
+    font-size: 17px;
+    color: black; 
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif;
+}
+a.mainButton:hover {
+    background-color: #B1EDFC; 
+
 }
