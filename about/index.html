@@ -2,7 +2,9 @@
 <html lang="en"></html>
     <head>
         <link rel="stylesheet" href="/public/css/styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnecst" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -16,7 +18,6 @@
                 <div style="align-self: center;">
                     <a href="/" class="menu" style="margin-left:20%">Home</a>
                     <a href="/about" class="menu_2">About me</a>
-                    <a href="https://itsatwowaystreet.com/blog" class="menu">Blog</a>
                     <a href="/contact" class="menu">Contact me</a>
                 </div>  
             </div>
@@ -26,157 +27,187 @@
             <div class="parent">
 
                 <div>
-                    <h1 class="content" style="text-align: left;">About me!</h1>
-                    <p class="content" style="text-align: left;">
-                        My name is Heidi Bailey, I am an outgoing, approachable, enthusiastic, confident, self-motivated student and employee. 
-                        I am currently studying a Degree in Journalism at University of Sheffield where in addition to my studies I enjoy filming and editing. 
-                        Recently, I have been elected as Inclusions Officer for the Swing Dance society where I am also a member due to my passion for the Jazz and the swing era.
-                        <br><br>
-                        I love to give back to the community and have achieved this through my volunteering work at Burn tree croft care home, where I have been able to implement my dementia friendly training.
-                        <br><br>
-                        Managing my time with work, my studies and all my extra-curricular activities has always been easy for me as I have excellent time management skills and plan effectively. 
-                        I am very versatile and adaptable to situations and manage problem solving with ease.
-                        <br><br>
-                        As a committed individual, I have always taken pride of my 100% commitment to any task or interest I may have. An example of this was my membership of a musical theatre company where I was 
-                        involved with a diverse age and range of people giving me experience working, interacting and communicating effectively as part of a team, especially when you must run a performance together 
-                        it is crucial to have these interpersonal skills. I have also taken part in open mic nights and shared my poetry and singing with an audience. .
-                    </p>      
-
-                    <img alt="Heidi Bailey Portrait" src="/public/images/P1040332.JPG" height="257.04px" width="349.02px" class="portrait" style="border-radius: 5%;">
-
-                    <h2 class="content">Education and Qualifications</h2>
-                    <h3 class="content">
-                        Univeristy of Sheffield - 2018-2021
-                    </h3>
-                    <p class="content" style="text-align: left;">
-                        Studying BA Journalism to graduate in 2021
-                    </p>   
-                    
-                    <h3 class="content">
-                        Walsall College - 2016-2018
-                    </h3>
-                    <p class="content" style="text-align: left;">
-                        Studied a BTEC Level 3 Extended Diploma in Creative Media to achieve:
-                        <ul class=content style="text-align: left;">
-                            <li>Distinction*</li>
-                            <li>Distinction</li>
-                            <li>Distinction</li>
-                        </ul>
-                    </p> 
-
-                    <h3 class="content">
-                        Erasmus Darwin Academy - 2011-2016
-                    </h3>
-                    <p class="content" style="text-align: left;">
-                        Studied 10 GCSEs and achieved:
-                        <ul class=content style="text-align: left;">
-                            <li>English Language - B</li>
-                            <li>English Literature - B</li>
-                            <li>Maths - C</li>
-                            <li>Core Science - B</li>
-                            <li>Additional Science - B</li>
-                            <li>Statistics - C</li>
-                            <li>Geography - B</li>
-                            <li>Religious Studies - B</li>
-                            <li>Drama - B</li>
-                            <li>Music - C</li>
-                        </ul>
-                    </p>  
-
-                    <h3 class="content">
-                        ABRSM, Trinity College London and London College of Music
-                    </h3>
-                    <p class="content" style="text-align: left;">
-                        <ul class=content style="text-align: left;">
-                            <li>Flute - Grade 5</li>
-                            <li>Singing - Grade 3</li>
-                            <li>Piano - Grade 2</li>
-                            <li>Music theory - Grade 1</li>
-                        </ul>
-                    </p>
-
-                </div>
-                <div>         
+                    <h1 class="content">About Me</h1>
                     <img alt="Heidi Bailey Portrait" src="/public/images/IMG_20200305_124321.jpg" height="300px" width="300px" class="portrait">
+                    <p>
+                        <a href="https://www.linkedin.com/in/heidi-bailey-669884190/" target="_blank" class="social">
+                            <img alt="GitHub" src="/public/images/linkedin.webp" height="40px" width="40px" class="socialimg">
+                        </a>
+                    </p>
+                </div>
+                <div>
+                    <div style="align-self: center;" class="content">
+                        <button class="mainButton" onclick="btnClick('personal')">Personal profile</button>
+                        <button class="mainButton" onclick="btnClick('quals')">Qualifications and skills</button>
+                        <button class="mainButton" onclick="btnClick('employment')">Employment history</button>
+                        <button class="mainButton" onclick="btnClick('volunteer')">Volunteering history</button>
+                        <button class="mainButton" onclick="btnClick('interests')">Interests</button>
+                    </div>  
+                    <div id="personal" class="text">
+                        <h2 class="content">Personal profile</h2>
+                        <p class="content">
+                            I am an outgoing, approachable, enthusiastic, self-motivated graduate and employee, who has just graduated with degree in 
+                            Journalism at the University of Sheffield. In addition to my studies, I have gained extensive experience using Adobe Premiere 
+                            Pro in filming, video/audio editing throughout my Btec in creative Media and my Journalism degree. In addition, I have advanced 
+                            creative skills throughout a variety of projects I have taken part in including writing and planning feature articles and news 
+                            articles for a magazine brand.<br><br>
 
-                        <h2 class="content">
-                            Work Experience
-                        </h2>
+                            I invest my spare time in my local community through my volunteering work at Burnt Tree Croft Care Home by supporting the vulnerable. 
+                            During Covid-19 I have maintained support through regular communication with elderly residents via video, phone and letters. Christmas 
+                            2020 I volunteered as a ‘Christmas caller’ at Ignite Imaginations phoning the isolated elderly on Christmas Day.<br><br>
 
-                        <h3 class="content">
-                            Current Position - Porky's Sandwich Bar
-                        </h3>
-                        <p class="content" style="text-align: left;">
-                            Roles and responsibilities include:
-                            <ul class=content style="text-align: left;">
-                                <li>Managing payments/till</li>
-                                <li>Serving and preparing food and hot beverages within a fast-paced environment</li>
-                                <li>Ensuring customers are being managed within a timely fashion to ensure great customer service</li>
-                                <li>Cleaning café at the end of the day</li>
-                            </ul>
+                            My time management strength has allowed me to manage my studies, volunteering and my role as an office and marketing assistant. I am very 
+                            versatile and adaptable to situations and manage problem-solving with ease.<br><br>
+
+                            As a committed individual, I have always taken pride in my 100% dedication to everything I do. An example of this is my membership of Sheffield 
+                            Swing Dance Society. I am involved with a diverse age and range of people, allowing me to build upon my existing experience working, interacting, 
+                            and communicating effectively as part of a team.<br><br>
+
+                            Before Covid-19 in ‘open mic’ performances, I regular participated as a solo singer and poetry performer, utilising and developing my presentational
+                            skills in front of a live audience.<br>
                         </p>
-                        <h3 class="content">
-                            Retail and café assistant - National Trust, Longshaw Estate (2019-2020)
-                        </h3>
-                        <p class="content" style="text-align: left;">
-                            Roles and responsibilities include:
-                            <ul class=content style="text-align: left;">
-                                <li>Managing payments/till</li>
-                                <li>Serving and preparing food and hot beverages within a fast-paced environment</li>
-                                <li>Ensuring customers are being managed within a timely fashion to ensure great customer service</li>
-                                <li>Cleaning café at the end of the day</li>
-                                <li>Working in the retail shop serving customers</li>
-                                <li>Cleaning café area at the end of the day</li>
-                            </ul>
+                    </div>
+                    <div id="quals" class="text">
+                        <h2 class="content">Qualifications and technical skills</h2>
+                        <p class="content">
+                            Adobe Premiere Pro
+                            5 years’ experience 
+
+                            Article/ blog writing 
+                            3 years 
+
+                            BA HONS Journalism Studies at University of Sheffield
+                            Graduated June 2021
                         </p>
-
-                        <h3 class="content">
-                            Saturday worker - Blokes Ltd, Lichfield (2016-2018)
-                        </h3>
-                        <p class="content" style="text-align: left;">
-                            Roles and responsibilities include:
-                            <ul class=content style="text-align: left;">
-                                <li>Hands on customer/client facing role</li>
-                                <li>Diary management for 4 barbers</li>
-                                <li>Managing customers over the phone</li>
-                                <li>Organizing refreshments for customers on arrival</li>
-                                <li>Maintaining a clean working environment for all 4 barbers throughout the day</li>
-                            </ul>
+                        <ul class="content">
+                            <li>Started up a digital magazine brand from scratch with a close-knit team, produced a large amount of social media content and website articles</li>
+                            <li>Produced multiple professional news story video clips, with interviews, precise shots and clean-cut editing</li>
+                            <li>Conducted public interviews about pressing and difficult topics, communicating with a diverse range of people</li>
+                            <li>Trained in Media Law including copyright and privacy laws</li>
+                            <li>Can produce content to a given brief within a tight deadline while following a consistent style</li>
+                        </ul>
+                        <p class="content">
+                            BTEC Level Three Extended Diploma in Creative Media (TV and Film)<br>
+                            Achieved qualification - Distinction*, Distinction, Distinction (equivalent of A* AA)
                         </p>
+                        <ul class="content">
+                            <li>Filmed and edited a short film depicting my life in a 1950s style, that was shown in a cinema.</li>
+                            <li>Created a promotional advert for a tea brand </li>
+                            <li>Produced a short documentary on veganism and cruelty to animals to spread awareness of animal abuse</li>
+                            <li>Hosted and filmed a multi-camera chat show within a team</li>
+                        </ul>
+                        <p class="content">
+                            GCSE<br>
+                            Achieved 10 Grade’s B’s and Cs including English Language and Literature, Maths and Statistics<br>
 
-                        <img alt="Heidi Bailey Portrait" src="/public/images/P1040332.JPG" height="257.04px" width="349.02px" class="portrait" style="border-radius: 5%;">
+                            Music<br>
+                            Achieved 11 Associated Board of the Royal Schools of Music grades across Piano, Vocal, Flute and theory<br>
 
-                        <h2 class="content">
-                            Skills and interests
-                        </h2>
-                        <ul class=content style="text-align: left;">
+                            Professional<br>
+                            Achieved Dementia Friendly qualification with Dementia Friends (Alzheimer Society)
+                        </p>
+                    </div>
+                    
+                    <div id="employment" class="text">
+                        <h2 class="content">Employment history</h2>
+                        <p class="content">
+                            Marketing and Office Assistant <br>
+                            A for Appointments- April 2021- Present <br>
+                            Roles and responsibilities include:
+                        </p>
+                        <ul class="content">
+                            <li>Managing companies’ social media across the board</li>
+                            <li>Sourcing potential candidates for jobs</li>
+                            <li>Doing administrative tasks</li>
+                            <li>Producing, designing and scheduling social media content</li>
+                            <li>Editing and filming videos for social media content</li>
+                            <li>Engaging and working amongst a fast past team</li>
+                        </ul>
+                            
+                        <p class="content">   
+                            Sales Assistant<br>
+                            Blakemore Retail - Spar Hillsborough August 2020 – March 2021<br>
+                            Roles and responsibilities include:
+                        </p>
+                        <ul class="content">
+                            <li>Customer facing role of a petrol station and a local convenience store</li>
+                            <li>Cash handling and transitions using an electronic till system, Pay Point and lottery services</li>
+                            <li>Monitoring the forecourt and fuel consumption management and shop stock control</li>
+                            <li>Health and safety management within store and petrol station forecourt</li>
+                        </ul>
+                        <p class="content">
+                            Porky’s Sandwich Bar<br>
+                            Employment ceased in March 2020 due to Covid-19<br>
+                            Roles and responsibilities include:
+                        </p>
+                        <ul class="content">
+                            <li>Customer facing role whilst managing payments/till</li>
+                            <li>Preparation of food and hot beverages within a fast-paced environment</li>
+                            <li>Managed customers within a timely fashion to ensure great customer experience</li>
+                        </ul>
+                        <p class="content">
+                            Retail and Café Assistant, National Trust, Longshaw Estate<br>
+                            June 2019 to January 2020. Employment ceased due to refurbishment.<br>
+                            Roles and responsibilities include:
+                        </p>
+                        <ul class="content">
+                            <li>Managing payments/till</li>
+                            <li>Serving and preparing all hot beverages within a fast-paced environment</li>
+                            <li>Managed customers within a timely fashion to ensure great customer experience</li>
+                            <li>Retail shop management (non-food)</li>
+                        </ul>
+                    </div>
+                    <div id="volunteer" class="text">
+                        <h2 class="content">Volunteering History</h2>
+                        <p class="content">
+                            Burnt Tree Croft Care Home, October 2019 - present<br>
+                            Roles and responsibilities include:
+                        </p>
+                        <ul class="content">
+                            <li>Helped create stimulating mind and physical activities to support residents with their well being</li>
+                            <li>One to one companionship for nominated residents</li>
+                            <li>Creation and personal execution of musical performances for residents</li>
+                            <li>Supporting care workers with manual caring tasks</li>
+                            <li>Provided Covid-19 support through regular communication with elderly residents via video, phone and letters</li>
+                        </ul>
+                            
+                        <p class="content">   
+                            Radio volunteering at Blunt Radio and Forge Radio September 2018 - September 2019<br>
+                            Roles and responsibilities include:
+                        </p>
+                        <ul class="content">
+                            <li>Presenter of the breakfast show, 3 times a week, and the creator of my own show</li>
+                            <li>Created topics for dicussion to stimulate interaction and discussion with listeners</li>
+                            <li>Conducted live interviews, including upcoming Sheffield artists</li>
+                            <li>Selecting a topic for the show, posting weekly polls and questions for the show via social media</li>
+                        </ul>
+                    </div>
+                    <div id="interests" class="text">
+                        <h2 class="content">Interests</h2>
+                        <ul class="content">
                             <li>Swing dancing</li>
                             <li>Letter writing, event hosting</li>
-                            <li>Singing, playing the ukulele</li>
-                            <li>Flute</li>
+                            <li>Video editing, social media</li>
                             <li>Documentaries</li>
                             <li>Radio</li>
-                            <li>Film editing</li>
+                            <li>Outdoor pursuit</li>
                         </ul>
-
+                    </div>
                 </div>
-
-                
-            </div>
             
         
         </div>
 
         <div class="footer">
             <p class="footer" style="color: darkslategrey;">
-                © 2020 Heidi Bailey | Created by <a href="https://jaketbailey.co.uk" class="menu" style="font-size: inherit; margin-left: 0px;">Jake Bailey</a>
+                © 2020 - 2021 Heidi Bailey | Created by <a href="https://jaketbailey.co.uk" class="menu" style="font-size: inherit; margin-left: 0px;">Jake Bailey</a>
             </p>
         </div>
 
 
 
 
-
+        <script src="/public/js/about.js" charset="utf-8"></script>
     </body>
     
 

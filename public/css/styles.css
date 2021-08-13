@@ -11,8 +11,7 @@
         display: flex;
         background-color: transparent;
         flex-flow: row wrap;
-        flex-wrap: wrap;
-        width: 100%;
+        width: 90%;
         align-content: center;
         align-items: flex-start;
         justify-content: center;
@@ -79,10 +78,10 @@
 
 h1.head {
     padding: 0px;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 35px;
-    color: black;
+    color: darkslategray;
     text-align: left;
     margin: 0px;
     background: transparent;
@@ -91,11 +90,11 @@ h1.head {
 }
 
 h2.head {
-    font-family: 'Josefin Slab', serif;
-    font-weight: 400;
-    font-size: 17px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
     text-decoration: naone;
-    color: black;
+    color: darkslategray;
     background: transparent;
     margin-top: 0px;
     text-align: left;
@@ -103,10 +102,10 @@ h2.head {
 
 h1.content {
     padding: 0px;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 30px;
-    color: black;
+    color: darkslategray;
     text-align: left;
     margin: 0px;
     background: transparent;
@@ -116,11 +115,11 @@ h1.content {
 }
 
 h2.content {
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 25px;
     text-decoration: naone;
-    color: black;
+    color: darkslategray;
     background: transparent;
     margin: 0px;
     padding-bottom: 5px;
@@ -128,24 +127,25 @@ h2.content {
 }
 
 h3.content {
-    font-family: 'Josefin Slab', serif;
-    font-weight: 600;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
     font-size: 20px;
-    color: black;
+    color: darkslategray;
     margin: 0px;
     text-decoration: none;
     text-align: left;
 }
 
 p.content, ul.content {
-    font-family: 'Josefin Slab', serif;
-    font-weight: 400;
-    font-size: 17px;
-    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 17.5px;
+    color: darkslategray;
     margin: 0px;
     text-decoration: none;
     text-align: center;
 }
+
 
 .portrait {
     padding: 0px;
@@ -160,11 +160,11 @@ body {
     margin: 0px
 }
 
-.menu {
-    font-family: 'Josefin Slab', serif;
+.menu, .about {
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 400;
     font-size: 17px;
-    color: black;
+    color: darkslategray;
     margin: 0px;
     margin-left: 10px;
     /* padding-top: 15px; */
@@ -172,7 +172,7 @@ body {
 }
 
 .menu_2 {
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 400;
     font-size: 17px;
     color: darkslategray;
@@ -182,7 +182,7 @@ body {
     text-decoration: underline;
 }
 
-.menu:hover{
+.menu:hover, .about:hover{
     font-weight: 400;
     color: darkslategray;
     text-decoration: underline;
@@ -191,22 +191,36 @@ body {
 
 p.footer{
     text-align: center;
-    font-family: 'Josefin Slab',serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 200;
     font-size: 12px;
 }
-
-a.mainButton {
+.mainButton {
     background-color: #ccf3fd; 
-    font-weight: 400;
+    font-weight: 300;
     border-radius: 5px; 
     font-size: 17px;
-    color: black; 
+    color: darkslategray; 
     padding: 10px;
     text-decoration: none;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: none;
+    margin-top: 10px;
 }
-a.mainButton:hover {
+.mainButton:hover {
     background-color: #B1EDFC; 
 
+}
+
+.social:hover {
+    opacity: 0.7;
+}
+
+.nav-item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#quals, #employment, #volunteer, #interests {
+    display:none
 }
