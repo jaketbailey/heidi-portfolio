@@ -123,7 +123,7 @@ h2.content {
     background: transparent;
     margin: 0px;
     padding-bottom: 5px;
-    text-align: left;
+    text-align: center;
 }
 
 h3.content {
@@ -144,6 +144,19 @@ p.content, ul.content {
     margin: 0px;
     text-decoration: none;
     text-align: center;
+    padding: 3px;
+    list-style-type: none;
+}
+
+p.content-bold {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 17.5px;
+    color: darkslategray;
+    margin: 0px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
 }
 
 
@@ -223,4 +236,8 @@ p.footer{
 
 #quals, #employment, #volunteer, #interests {
     display:none
+}
+
+.img {
+    margin-top: 5px;
 }
